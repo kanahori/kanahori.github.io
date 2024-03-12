@@ -1,18 +1,24 @@
 ---
 layout: page
-title: About
+title: 触形プロジェクトについて
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## 当研究ポータルサイトへようこそ
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### 私たちのミッション
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+筑波技術大学の障害者高等教育研究支援センターでは、視覚障害者の触覚知覚能力の向上に重点を置いた先進的な研究を行っています。
+松尾光伸先生を中心に、3D触覚ユニットを活用した触覚知覚向上プログラムの開発に取り組んでいます。
 
+### 触覚教育のための革新的な触覚ユニット
 
-[jekyll-organization]: https://github.com/jekyll
+私たちのプロジェクトでは、触って理解できるインタラクティブな触覚活動システムを導入しています。この取り組みは、触覚学習を促進するだけでなく、触覚ユニットを用いた探索や創造的活動を通して、視覚障害者の学習体験をより豊かにすることを目指しています。
+
+### 触覚の可能性を広げる
+
+現在の触覚ツールの限界に着目し、私たちの研究は触覚探索の新たな地平を切り開くことを目指しています。革新的な触覚ツールの開発やワークショップ、展示会の開催を通じて、触覚教育と感覚体験の分野に貢献し、すべての人に包摂的な学習環境を提供することを目標としています。
+
+### 私たちの旅にご一緒ください
+
+私たちの研究成果をご覧いただき、触覚知覚と創造性に境界のない未来への旅にご一緒ください。詳細情報、最新情報、参加方法については、[プロジェクト](/projects/)や[ワークショップ](/workshops/)のページをご覧ください。
