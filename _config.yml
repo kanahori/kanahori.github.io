@@ -21,9 +21,8 @@
 title: 触形プロジェクトポータルサイト(仮)
 email: kanahori@k.tsukuba-tech.ac.jp
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  触形プロジェクトでは、日本学術振興会科学研究費補助金（基盤研究(A)）の助成を受け、視覚障害者のための触覚知覚向上プログラムを開発しています。
+  このプロジェクトは、革新的な触覚ユニットを通じて、新しい学習体験を提供し、視覚障害者がより豊かな感覚世界を探求できるよう支援します。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
