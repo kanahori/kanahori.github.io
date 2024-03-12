@@ -6,15 +6,17 @@ categories: movies
 ---
 第34回日本基礎造形学会 (アジア基礎造形連合学会2023札幌大会併催)の様子の動画を掲載します。
 
-- 開会式
-<iframe width="560" height="315" src="https://youtu.be/eVRalmhUWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 開会式
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eVRalmhUWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 作品展の様子
-<iframe width="560" height="315" src="https://youtu.be/9DTuIdY2Q7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 作品展の様子
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9DTuIdY2Q7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 発表の様子 01
-<iframe width="560" height="315" src="https://youtu.be/6p-R7ZiOqFE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 発表の様子 01
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6p-R7ZiOqFE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 発表の様子 02
-<iframe width="560" height="315" src="https://youtu.be/zs1b5XNVG3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 発表の様子 02
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zs1b5XNVG3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
