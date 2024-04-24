@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "第34回 日本基礎造形学会 発表スライド"
+date:   2024-04-24 10:30:08 +0900
+categories: documents
+---
+第34回日本基礎造形学会 (アジア基礎造形連合学会2023札幌大会併催)での発表スライドを掲載します。
+
+## TACTILE ART & THERAPY PROJECT
+“INFORMART” Unit to Improve 3D Perception Ability of the Visual impairment and its application to Occupational therapy
+
+- Mitsunobu Matsuo
+	- National University Corporation Tsukuba University of Technology
+
+
+発表スライド→[(PDF) TACTILE ART & THERAPY PROJECT](./TACTILE ART & THERAPY PROJECT.pdf)
