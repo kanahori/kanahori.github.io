@@ -13,4 +13,4 @@ categories: documents
 	- National University Corporation Tsukuba University of Technology
 
 
-発表スライド→[(PDF) TACTILE ART & THERAPY PROJECT](./TACTILE ART & THERAPY PROJECT.pdf)
+発表スライド→[(PDF) TACTILE ART & THERAPY PROJECT](/assets/TACTILE ART & THERAPY PROJECT.pdf)
