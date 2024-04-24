@@ -13,4 +13,4 @@ categories: documents
 	- National University Corporation Tsukuba University of Technology
 
 
-発表スライド→[(PDF) TACTILE ART & THERAPY PROJECT](/assets/TACTILE ART & THERAPY PROJECT.pdf)
+発表スライド→[(PDF) TACTILE ART & THERAPY PROJECT](https://github.com/kanahori/kanahori.github.io/blob/b6a627dc508100680b255803f07788f979fa911a/assets/TACTILE%20ART%20%26%20THERAPY%20PROJECT.pdf)
