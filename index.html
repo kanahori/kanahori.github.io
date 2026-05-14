@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>触形プロジェクト — Tactile Art and Therapy Project</title>
+<title>触形プロジェクト — Tactile Art &amp; Therapy Project</title>
 <style>
   :root {
     --blue: #1A5276;
@@ -12,39 +12,148 @@
     --dark: #2C3E50;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif; color: var(--dark); line-height: 1.7; background: var(--light); display: flex; flex-direction: column; min-height: 100vh; }
-  main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px 20px; }
-  .landing { max-width: 560px; width: 100%; text-align: center; }
-  .landing h1 { color: var(--blue); font-size: 1.6em; margin-bottom: 8px; line-height: 1.4; }
-  .landing .subtitle { color: var(--gold); font-size: 1.0em; font-weight: bold; margin-bottom: 24px; }
-  .landing p { font-size: 0.95em; color: #555; margin-bottom: 28px; }
-  .lang-choices { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-  .lang-choices a { display: inline-block; padding: 14px 36px; background: var(--blue); color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; transition: background 0.2s; }
-  .lang-choices a:hover { background: var(--gold); }
-  footer { background: var(--blue); color: #fff; padding: 14px 0; text-align: center; font-size: 0.8em; }
+  body { font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; color: var(--dark); line-height: 1.7; }
+  .container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+  header { background: var(--blue); color: #fff; padding: 40px 0 30px; text-align: center; }
+  header h1 { font-size: 1.8em; margin-bottom: 8px; }
+  header .subtitle { color: var(--gold); font-size: 1.1em; font-weight: bold; }
+  header .org { font-size: 0.95em; margin-top: 8px; opacity: 0.9; }
+  .grant { background: var(--light); padding: 12px 20px; text-align: center; font-size: 0.85em; border-bottom: 2px solid var(--blue); }
+  section { padding: 28px 0; }
+  section + section { border-top: 1px solid #ddd; }
+  h2 { color: var(--blue); font-size: 1.3em; margin-bottom: 12px; border-left: 4px solid var(--gold); padding-left: 10px; }
+  h3 { color: var(--blue); font-size: 1.05em; margin: 16px 0 6px; }
+  p { margin-bottom: 10px; font-size: 0.95em; }
+  ul { margin: 8px 0 8px 24px; font-size: 0.93em; }
+  ul li { margin-bottom: 4px; }
+  .units { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 12px 0; }
+  .unit-card { background: var(--light); padding: 14px; border-radius: 6px; }
+  .unit-card strong { color: var(--blue); }
+  .members { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  .member-group h3 { margin-top: 0; }
+  .member-group ul { list-style: none; margin-left: 0; }
+  .member-group li { padding: 2px 0; }
+  footer { background: var(--blue); color: #fff; padding: 20px 0; text-align: center; font-size: 0.85em; }
   footer a { color: var(--gold); }
-  @media (max-width: 500px) {
-    .landing h1 { font-size: 1.3em; }
-    .lang-choices a { padding: 12px 24px; font-size: 1.0em; }
+  .en { font-size: 0.88em; color: #666; margin-top: 4px; }
+  .lang-switch { background: var(--dark); padding: 8px 20px; text-align: right; font-size: 0.85em; }
+  .lang-switch a { color: var(--gold); text-decoration: none; padding: 0 8px; }
+  .lang-switch a.active { color: #fff; font-weight: bold; }
+  .lang-switch a:hover { text-decoration: underline; }
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.4em; }
+    .units { grid-template-columns: 1fr; }
   }
 </style>
 </head>
 <body>
 
-<main>
-  <div class="landing">
-    <h1>触形プロジェクト<br>Tactile Art and Therapy Project</h1>
-    <div class="subtitle">Tsukuba University of Technology — 筑波技術大学</div>
-    <p>視覚障害者と高齢者のための新しい触知ツールの開発<br>Developing New Tactile Tools for People with Visual Impairments and the Elderly</p>
-    <div class="lang-choices">
-      <a href="ja/index.html" lang="ja">日本語</a>
-      <a href="en/index.html" lang="en">English</a>
+<nav class="lang-switch">
+  <a href="en/index.html">English</a> |
+  <a href="index.html" class="active">日本語</a>
+</nav>
+
+<header>
+  <div class="container">
+    <h1>触って作るオリジナル造形と<br>触って学ぶ多面体の数理</h1>
+    <div class="subtitle">視覚障害者と高齢者のための新しい触知ツールの開発</div>
+    <div class="org">筑波技術大学 触形プロジェクト（Tactile Art and Therapy Project）</div>
+  </div>
+</header>
+
+<div class="grant">
+  2023–2027年度 基盤研究（A）（一般）　課題番号 23H00064<br>
+  「ユニット造形システムを用いた視覚障害者向け立体感知能力向上プログラムの研究開発」
+</div>
+
+<div class="container">
+
+<section>
+  <h2>概要</h2>
+  <p>視覚障害者の教育および概念形成においては、触覚、聴覚など他感覚による代替と情報の次元という考え方が重要です。点字は6点の2次元パターンで1次元の文字情報を表現しており、触図は2次元の図的表現による実物や概念の写しです。しかし、3次元の立体触察ツールは、教材用実物模型の他、博物館展示品等などに限られているのが現状です。</p>
+  <p>造形作家の松尾光伸は、白銀比等の幾何学的構成原理に基づくオリジナルな多面体ブロックの組み合わせによる「情報造形：INFORMART」を提唱し、触ってわかる触形譜等の支援ツールを開発してきました。</p>
+  <p>本研究では、1次元の点字、2次元の触図に続く3次元の触形として、視覚障害者のための造形教育・幾何学教育をはじめ保健医療分野にも寄与する社会実装ツールの開発を目標としています。</p>
+  <p class="en">This project aims to develop a tactile art and therapy program for people with visual impairments and the elderly, using innovative unit-based modeling systems.</p>
+</section>
+
+<section>
+  <h2>記事・報告</h2>
+  <ul>
+    <li><a href="articles/tedemiru-exhibition.html">第33回「手でみる造型展」出展報告</a>（2026年2月〜3月・熊本/天草・来場者277名）</li>
+    <li><a href="articles/vision2025.html">Vision2025国際会議での触形プロジェクト展示報告</a>（2025年9月）</li>
+    <li><a href="articles/slides.html">第34回 日本基礎造形学会 発表スライド</a>（2024年4月）</li>
+    <li><a href="articles/movies.html">第34回 日本基礎造形学会 発表等の動画</a>（2024年3月）</li>
+    <li><a href="articles/coverletter.html">研究概要</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>「触形プログラム」の主なユニット</h2>
+  <div class="units">
+    <div class="unit-card"><strong>楕円ユニット</strong><br>45度楕円筒を斜め45度にカットした断面に正円と楕円を持つユニット。わずか2〜4個の同型パーツで膨大な造形パターンが産み出せます。</div>
+    <div class="unit-card"><strong>フィギュアーズユニット</strong><br>人の佇まいやシルエットを表現するために設計されたユニットです。</div>
+    <div class="unit-card"><strong>ハートキューブ</strong><br>立方体の6面を三つの楕円筒で繰り抜いた3等分割ユニット。パーツの組み合わせによってハートが現れます。</div>
+    <div class="unit-card"><strong>斜キューブ1/4</strong><br>天面の1/4の正方形面と底面の同型面を斜めに結んで、立方体を等形4分割されたユニットです。</div>
+  </div>
+</section>
+
+<section>
+  <h2>主な学会発表等</h2>
+  <ul>
+    <li>2023.08 — アジア基礎造形連合学会2023（第34回日本基礎造形学会併催）札幌大会</li>
+    <li>2024.02 — 基礎造形032 日本基礎造形学会 論文集2023, 81–86</li>
+    <li>2024.11 — ICEVI World Conference 2024, Ahmedabad, India</li>
+    <li>2025.06 — Tactile Reading Conference 2025, Amsterdam, the Netherlands</li>
+    <li>2025.09 — Vision 2025, 15th International Conference, ISLRR, Florence, Italy</li>
+  </ul>
+  <h3>関連取得特許</h3>
+  <ul>
+    <li>中国特許 ZL200810171367.4</li>
+    <li>日本特許 第4874862号</li>
+  </ul>
+</section>
+
+<section>
+  <h2>INFORMART・TACTILE ART 提唱者 — 松尾光伸</h2>
+  <p>環境造形家。中国 中央美術学院城市設計学院 教授 / 清華大学美術学院 客員教授。日本NPO福祉芸術文化研究会 理事長。中国彫塑学会 顧問。国立大学法人 筑波技術大学 共同研究員。オランダ財団法人松尾創形 創始人。1943年 熊本市生 / 1970年 東京芸術大学美術学部卒業。</p>
+  <p><a href="https://www.matsuo-formart.com/" target="_blank" rel="noopener">www.matsuo-formart.com</a></p>
+</section>
+
+<section>
+  <h2>プロジェクト・メンバー</h2>
+  <div class="members">
+    <div class="member-group">
+      <h3>研究代表者</h3>
+      <ul><li>金堀 利洋 — 筑波技術大学 准教授（視覚障害工学）</li></ul>
+      <h3>研究分担者</h3>
+      <ul>
+        <li>田中 仁 — 筑波技術大学 准教授（数学）</li>
+        <li>嶋 俊樹 — 筑波技術大学 講師（視覚障害教育）</li>
+        <li>守屋 誠太郎 — 筑波技術大学 准教授（美術教育）</li>
+        <li>広瀬 浩二郎 — 国立民族学博物館 教授</li>
+      </ul>
+    </div>
+    <div class="member-group">
+      <h3>研究協力者</h3>
+      <ul>
+        <li>松尾 光伸 — 筑波技術大学 共同研究員</li>
+        <li>大武 信之 — 筑波技術大学 共同研究員</li>
+        <li>加藤 宏 — 筑波技術大学 共同研究員</li>
+        <li>吉田 次男 — 筑波技術大学 共同研究員</li>
+        <li>久保田 智洋 — アール医療専門職大学 准教授</li>
+        <li>手嶋 吉法 — 千葉工業大学 教授</li>
+      </ul>
     </div>
   </div>
-</main>
+</section>
+
+</div>
 
 <footer>
-  <p>2026 Tsukuba University of Technology — Tactile Art &amp; Therapy Project · <a href="mailto:kanahori@k.tsukuba-tech.ac.jp">kanahori@k.tsukuba-tech.ac.jp</a></p>
+  <div class="container">
+    <p>2026 筑波技術大学 触形プロジェクト — Tactile Art &amp; Therapy Project</p>
+    <p><a href="mailto:kanahori@k.tsukuba-tech.ac.jp">kanahori@k.tsukuba-tech.ac.jp</a></p>
+  </div>
 </footer>
 
 </body>
