@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>触形プロジェクト — Tactile Art &amp; Therapy Project</title>
+<!-- taihi: 文字の最小 7.21:1（淡い金 #FBEEC1 と青 #1A5276。言語の切り替えは #2C3E50 の上で 9.47:1）。WCAG 2.x の相対輝度の式を python3 で計算・2026-10-18 shokkei_web -->
 <style>
   :root {
     --blue: #1A5276;
     --gold: #B7950B;
+    --gold-text: #FBEEC1;
     --light: #F4F6F7;
     --dark: #2C3E50;
   }
@@ -16,7 +18,7 @@
   .container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
   header { background: var(--blue); color: #fff; padding: 40px 0 30px; text-align: center; }
   header h1 { font-size: 1.8em; margin-bottom: 8px; }
-  header .subtitle { color: var(--gold); font-size: 1.1em; font-weight: bold; }
+  header .subtitle { color: var(--gold-text); font-size: 1.1em; font-weight: bold; }
   header .org { font-size: 0.95em; margin-top: 8px; opacity: 0.9; }
   .grant { background: var(--light); padding: 12px 20px; text-align: center; font-size: 0.85em; border-bottom: 2px solid var(--blue); }
   section { padding: 28px 0; }
@@ -34,10 +36,10 @@
   .member-group ul { list-style: none; margin-left: 0; }
   .member-group li { padding: 2px 0; }
   footer { background: var(--blue); color: #fff; padding: 20px 0; text-align: center; font-size: 0.85em; }
-  footer a { color: var(--gold); }
+  footer a { color: var(--gold-text); }
   .en { font-size: 0.88em; color: #666; margin-top: 4px; }
   .lang-switch { background: var(--dark); padding: 8px 20px; text-align: right; font-size: 0.85em; }
-  .lang-switch a { color: var(--gold); text-decoration: none; padding: 0 8px; }
+  .lang-switch a { color: var(--gold-text); text-decoration: none; padding: 0 8px; }
   .lang-switch a.active { color: #fff; font-weight: bold; }
   .lang-switch a:hover { text-decoration: underline; }
   @media (max-width: 600px) {
